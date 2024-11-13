@@ -1,0 +1,8 @@
+CREATE TABLE publications (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    publication_date DATE NOT NULL,
+    publication_name VARCHAR(255) NOT NULL,
+    media_structure TEXT,
+    user_id INT(11) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
